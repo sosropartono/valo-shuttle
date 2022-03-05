@@ -11,25 +11,72 @@ body{
     margin: 0;
     display: flex;
     justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.list{
+    display: flex;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .one{
     display: flex;
-    background-color: aliceblue;
+    justify-content: space-around;
+    background-color: #1F2937;
+    padding: 50px;
 }
+
+.one-left{
+    display: flex;
+    color: #F9FAF8;
+    flex-direction: column;
+}
+
+.one-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.agent{
+    height: 400px;
+    width: 500px;
+}
+
 
 .two{
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
 }
 
-img{
-    width: 250px;
+.list-two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+}
+
+
+.gallery{
+    justify-content: space-around;
+    display: flex;
+}
+
+.list-image{
+    width: 200px;
     height: 300px;
-    padding: 20px;
 }
 
 ul{
     list-style-type: none;
-    display: flex;
-    gap: 8px;
 }
